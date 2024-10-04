@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Blogs", link: "/comming-soon" },
+  { name: "Case Studies", link: "/comming-soon" },
+  { name: "About", link: "/about" },
+  { name: "Contact", link: "/about" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "We prioritize client collaboration, fostering open communication ",
+    title: "our team of experts ensures excelence in every service we offer",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "We are very flexible with time zone communications",
+    title: "we ship world wide serving a diverse global clientele",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Our tech stack",
-    description: "I constantly try to improve",
+    title: "Our tech arsenal",
+    description: "Relentlessly Innovating",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,8 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "fuled by passion",
+    description: "innovating because our team cares",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "be a part of india's innovative tech community and collabrate in shaping the future together.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Got A Project? Let's build something amazing together! Contact Us Today...",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -107,33 +107,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Exive has been a game-changer for us at Spydown Game Studio. Their expertise in developing IT solutions is impressive, and the results have exceeded our expectations. We highly recommend Exive for any tech needs",
+    name: "Ayush Dubey",
+    title: "CEO of SpyDown",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Exive IT Solutions was a great experience for our portfolio website. Their expertise in interactive design and understanding of Indian aesthetics really brought our vision to life. The team's professionalism, creativity, and technical skills made the process smooth and enjoyable. For anyone looking to create something unique, Exive is definitely worth considering.",
+    name: "Aviral Tomar",
+    title: "Director of Relort Media",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As the CTO of a small but fast-growing company, we needed a dependable partner for our IT & Tech infrastructure overhaul. Exive Solutions stepped up to the challenge with impressive technical expertise and problem-solving skills. Their team not only addressed our immediate needs but also set us up for future scalability. It was a smooth, efficient collaboration, and Exive has become our go-to for any IT solutions.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "CTO",
   },
 ];
 
@@ -170,32 +158,33 @@ export const companies = [
   },
 ];
 
+// Services  !important
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Website Development",
+    desc: "Transfroming your vision into stunning interective websites which drives results...",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev",
+    desc: "creating seamless crossplatform apps that elevates user experiance.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "2D/3D Graphics & Animation",
+    desc: " bringing ideas to life with cptivating graphics and dynamic animations.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Digital Solutions",
+    desc: "innivative digital strategies to transform your operations and enhance costomer engagement.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

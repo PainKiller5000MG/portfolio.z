@@ -1,8 +1,9 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Link from "next/link";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { nextImageLoaderRegex } from "next/dist/build/webpack-config";
 
 const Hero = () => {
   return (
@@ -44,13 +45,13 @@ const Hero = () => {
             navansh write here something////
           </p> */}
 
-          <a href="#about">
+          <Link href="/about">
             <MagicButton
               title="Got An Idea"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

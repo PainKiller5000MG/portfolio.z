@@ -26,7 +26,16 @@ const config = {
       },
     },
     extend: {
+      
       colors: {
+        purple: "#CBACF9",
+        comingsoonPurple: {
+          400: '#9D4EDD',
+          500: '#7B2CBF',
+          600: '#5A189A',
+          700: '#3C096C',
+          900: '#240046',
+        },
         black: {
           DEFAULT: "#000",
           100: "#000319",
@@ -41,7 +50,7 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+     
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -148,6 +157,7 @@ const config = {
         },
       },
       animation: {
+        'pulse-slow': 'pulse 4s infinite',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",

@@ -1,5 +1,6 @@
 export const navItems = [
-  { name: "Blogs", link: "/comming-soon" },
+  { name: "Home", link: "/" },
+{ name: "Blogs", link: "/comming-soon" },
   { name: "Case Studies", link: "/comming-soon" },
   { name: "About", link: "/about" },
   { name: "Contact", link: "/about" },
@@ -8,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "our team of experts ensures excelence in every service we offer",
+    title: "Our team is a powerhouse of experts, each specializing in delivering top-tier services in every field we cover.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "we ship world wide serving a diverse global clientele",
+    title: "We ship worldwide, serving a diverse global clientele.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Our tech arsenal",
-    description: "Relentlessly Innovating",
+    description: "Relentlessly Innovating.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "fuled by passion",
-    description: "innovating because our team cares",
+    title: "Fueled by Passion",
+    description: "Innovating Because Our Team Cares",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "be a part of india's innovative tech community and collabrate in shaping the future together.",
+    title: "Be a part of India's innovative tech community and collaborate in shaping the future together!",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -117,45 +118,45 @@ export const testimonials = [
     name: "Aviral Tomar",
     title: "Director of Relort Media",
   },
-  {
-    quote:
-      "As the CTO of a small but fast-growing company, we needed a dependable partner for our IT & Tech infrastructure overhaul. Exive Solutions stepped up to the challenge with impressive technical expertise and problem-solving skills. Their team not only addressed our immediate needs but also set us up for future scalability. It was a smooth, efficient collaboration, and Exive has become our go-to for any IT solutions.",
-    name: "Michael Johnson",
-    title: "CTO",
-  },
+  // {
+  //   quote:
+  //     "As the CTO of a small but fast-growing company, we needed a dependable partner for our IT & Tech infrastructure overhaul. Exive Solutions stepped up to the challenge with impressive technical expertise and problem-solving skills. Their team not only addressed our immediate needs but also set us up for future scalability. It was a smooth, efficient collaboration, and Exive has become our go-to for any IT solutions.",
+  //   name: "",
+  //   title: "CTO of ",
+  // },
 ];
 
 export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  // {
+  //   id: 1,
+  //   name: "cloudinary",
+  //   img: "/cloud.svg",
+  //   nameImg: "/cloudName.svg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "appwrite",
+  //   img: "/app.svg",
+  //   nameImg: "/appName.svg",
+  // },
+  // {
+  //   id: 3,
+  //   name: "HOSTINGER",
+  //   img: "/host.svg",
+  //   nameImg: "/hostName.svg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "stream",
+  //   img: "/s.svg",
+  //   nameImg: "/streamName.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 // Services  !important
@@ -163,28 +164,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Website Development",
-    desc: "Transfroming your vision into stunning interective websites which drives results...",
+    desc: "Transforming your vision into stunning, interactive websites that drive results!",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Mobile App Dev",
-    desc: "creating seamless crossplatform apps that elevates user experiance.",
+    desc: "Creating seamless cross-platform apps that elevate user experiences.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "2D/3D Graphics & Animation",
-    desc: " bringing ideas to life with cptivating graphics and dynamic animations.",
+    desc: "Bringing ideas to life with captivating 2D and 3D graphics and dynamic animations.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Digital Solutions",
-    desc: "innivative digital strategies to transform your operations and enhance costomer engagement.",
+    desc: "Innovative digital strategies to transform your operations and enhance customer engagement.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -194,13 +195,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/EXEIV-official/"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+     link:"https://www.instagram.com/exeiv.it/"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/company/exeiv"
   },
 ];
